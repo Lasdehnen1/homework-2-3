@@ -1,13 +1,16 @@
-public class Car extends Vehicle implements Checkable{
+public class Car extends Bicycle{
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
 
     @Override
     public void whatToCheck() {
-
+        super.whatToCheck();
         checkEngine();
     }
 }

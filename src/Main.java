@@ -15,17 +15,17 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
 
-        station.check(car, null, null);
+        station.check(car);
         System.out.println();
-        station.check(car2, null, null);
+        station.check(car2);
         System.out.println();
-        station.check(null, bicycle, null);
+        station.check(bicycle);
         System.out.println();
-        station.check(null, bicycle2, null);
+        station.check(bicycle);
         System.out.println();
-        station.check(null, null, truck);
+        station.check(truck);
         System.out.println();
-        station.check(null, null, truck2);
+        station.check(truck2);
 
 
     }
